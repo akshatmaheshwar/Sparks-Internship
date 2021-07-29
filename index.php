@@ -8,10 +8,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="icon" href="bank.png" type="image/icon type">
   </head>
 <style>
 body{
-    background-color:rgb(20,20,20);
+    background-color: rgb(20,20,20);
 }
 .size{
     padding : 10px ;
@@ -53,7 +54,7 @@ body{
     
 }
 .nav{
-    background-image: linear-gradient(#000000,rgb(20,20,20))	;
+    background-image: linear-gradient(#000000,rgb(20,20,20));
     position:fixed;
     margin:0%;
     width:100%;
@@ -104,7 +105,7 @@ p{
 <a href="history.php" class="btn btn-success col-4 col-xl-2 offset-xl-2 btn-inline offset-2 col-md-3 button">Tansfer History</a>
 </div></div>
 
-  <!-- Optional JavaScript hi idha na soliye aganum-->
+  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

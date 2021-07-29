@@ -8,11 +8,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="icon" href="bank.png" type="image/icon type">
   </head>
 <style>
 body{
     background-image: linear-gradient(#000000,rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),rgb(20,20,20),#000000);
     height:100vh;
+    
 }
 .size{
     padding : 10px ;
@@ -33,7 +35,7 @@ body{
     font-size:35px ; 
     font-weight:bold;
 }
-.button{
+/* .button{
     text-decoration:none;
     color:#ffffff;
     background-color:#00FF7F;
@@ -43,16 +45,17 @@ body{
     font-family: 'Baloo Tammudu';
     padding: 15px;
     margin: 0px 20px;
-}
+} */
 .button:hover{
-    color:#ffffff;
+    /* color:#ffffff; */
     text-decoration:none;
-    background-color:#00FF7F;
-    border:3px white solid ;
+    /* background-color:#00FF7F; */
+    border:1px white solid ;
+    box-shadow: 0px 0px 3px white;
     
 }
 .nav{
-    background-image: linear-gradient(#000000,rgb(20,20,20))	;
+    background-image: transparent	;
     position:fixed;
     margin:0%;
     width:100%;
@@ -119,10 +122,11 @@ color: #fff;
 <br><br><br><br><br><br><br><br>
 <center><p> Transaction Successful! </p></center><br><br><br>
 <div class="container">
-<center>
-<a href="customers.php" class="button">&nbsp&nbsp&nbsp Customers &nbsp&nbsp&nbsp</a>
-<a href="history.php" class="button">Tansfer History</a>
-</center></div>
+<div class="row">
+
+<a href="customers.php" class="btn btn-success col-4 col-xl-2 offset-xl-3 btn-inline offset-1 col-md-3 offset-md-2 button"> Customers </a>
+<a href="history.php" class="btn btn-success col-4 col-xl-2 offset-xl-2 btn-inline offset-2 col-md-3 button">Tansfer History</a>
+</div></div>
 <footer class="fixed-bottom">
 <div class="container">
 <div class="footer">
