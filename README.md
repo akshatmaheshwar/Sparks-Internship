@@ -19,7 +19,7 @@ PHP · MySQL · HTML · CSS · Bootstrap 4 · JavaScript
 3. Update `connection.php` with your database credentials
 4. Run the project from your local server (e.g. `localhost/sparks-bank`)
 
-## Screenshots
+## Logo
 ![Sparks Bank](sparks.png)
 
 ## Notes
